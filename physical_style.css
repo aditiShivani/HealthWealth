@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 350;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main{
+     width: 100vw;
+     min-height: 100vh;
+     display: grid;
+     place-items: center;
+     background-color:rgb(178, 102, 255);
+}
+
+.inner{
+    width:40vw;
+    background-color: white;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+   
+}
+
+.inner h2{
+    font-size: 3rem;
+    font-weight:400;
+    margin: 1rem 0 4rem 0;
+}
+
+.inner li{
+    font-size: 2rem;
+    margin-top: 1rem;;
+    list-style: none;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+    padding:1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+    margin :auto;
+    text-transform: uppercase;
+    color:white;
+    background-color: #74b9ff;
+    margin-top:4rem;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #0984e3;
+}
+
+#showsurvey div{
+    
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+    border-radius: 1rem;
+    
+}
+
+#showsurvey h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#showsurvey h4{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#showsurvey .btn{
+    margin-top: 2rem;
+    background-color:rgb(54, 69, 79);
+    color:#fff;
+}
+#showsurvey .btn:hover{
+    background-color: black;
+    color:#fff;
+}
+
+.survey{
+    display: none;
+}
